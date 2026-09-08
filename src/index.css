@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-viaoda: 'Viaoda Libre', serif;
+  --font-sans: 'DM Sans', sans-serif;
+  --color-accent-yellow: #ffff0f;
+  --color-accent-blue: #bae9ee;
+}
+
+.font-viaoda {
+  font-family: 'Viaoda Libre', serif !important;
+}
+
+body, button, input, textarea, select {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* 3D coin perspective classes */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* Custom scrollbar matching neo-brutalist / editorial aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 0px;
+}

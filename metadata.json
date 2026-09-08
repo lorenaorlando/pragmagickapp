@@ -1,0 +1,8 @@
+{
+  "name": "Remix Pragmagicka",
+  "description": "Tecnología \u0026 magia para tomar decisiones, destrabar la mente y accionar en el mundo real. Esoterismo pragmático.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
